@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++: Launch Project",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/app",  // Point to your executable
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",  // Use "gdb" if you're debugging with G++
+            "preLaunchTask": "C/C++: clang++ build project"  // Run your build task
+        }
+    ]
+}
